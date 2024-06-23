@@ -10,10 +10,8 @@ import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import qrcodeapi.exception.ValidationException;
-import qrcodeapi.model.CorrectionLevel;
 import qrcodeapi.model.ImageType;
 
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.Map;
 
